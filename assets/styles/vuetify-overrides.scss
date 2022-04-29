@@ -1,0 +1,31 @@
+@import './colors.scss';
+
+.theme--dark.v-navigation-drawer {
+  background-color: $navbar-dark-bcolor;
+}
+.theme--dark.v-btn {
+  color: $dark-tcolor;
+}
+.theme--dark.v-list-item:not(.v-list-item--active):not(.v-list-item--disabled) {
+  color: $dark-tcolor;
+}
+.theme--dark.v-icon {
+  color: $dark-tcolor;
+}
+.v-application--is-ltr .v-list-item__action:first-child,
+.v-application--is-ltr .v-list-item__icon:first-child {
+  margin-right: 16px;
+  //   padding: 0 8px;
+}
+.v-list {
+  font-size: 14px !important;
+}
+.v-list-item__icon {
+  margin: 8px 0;
+}
+.v-list-item {
+  min-height: unset;
+}
+.v-autocomplete__content.v-menu__content .v-select-list {
+  background: $dark-bcolor;
+}
